@@ -11,4 +11,4 @@ import hashlib
 m = hashlib.sha256()
 m.update(file_bytes)
 hash = m.hexdigest()
-print('SHA256 del Documento: {}'.format(hash_mio))
+print('SHA256 del Documento: {}'.format(hash))
